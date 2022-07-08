@@ -9,6 +9,12 @@ Welcome to Bryan Miller's Landing Page Project, the [second assignment](https://
 - Git Fundamentals
   - Atomic commits
 
+## Odin Project Blueprints
+
+![Blueprint #1](./img/odin-project-1.png)
+
+![Blueprint #2](./img/odin-project-2.png)
+
 ## Deployment
 
 ```sh
