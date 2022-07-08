@@ -1,6 +1,68 @@
+/*
+colors:
+brown   8A584C
+bluegrey  8FA6AC
+yellow  F5EACF
+tan CEB793
+light green 85865F
+dark green 4F583D
+
+*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  border: 1px dotted gray;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 1280px;
+}
+
+.top {
+  color: white;
+  background-color: #8a584c;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  height: 80px;
+  padding: 0px 16px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav li {
+  padding: 0px 10px;
+  margin: 1px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
 }
