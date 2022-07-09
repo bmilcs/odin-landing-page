@@ -20,6 +20,7 @@ dark green 4F583D
 .container {
   display: flex;
   justify-content: center;
+  padding: 0px 30px;
 }
 
 .wrapper {
@@ -31,13 +32,17 @@ dark green 4F583D
   background-color: #8a584c;
 }
 
-.banner {
+.banner.wrapper {
+  display: flex;
+}
+
+.titlebar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 16px;
   height: 80px;
-  padding: 0px 16px;
+  /* padding: 0px 16px; */
 }
 
 .title {
@@ -65,4 +70,32 @@ dark green 4F583D
 .nav a {
   color: white;
   text-decoration: none;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.toptext {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.toptitle {
+  font-size: 42px;
+  font-weight: 900;
+}
+
+.toppara {
+}
+
+.topimg {
+  width: 400px;
+  height: 250px;
+  background-color: #8fa6ac;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
