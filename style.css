@@ -3,22 +3,29 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  /* border: 1px dotted gray; */
+  border: 1px dotted gray;
 }
 
 .wrapper {
   width: 1080px;
-  /* padding: 0px 20px; */
   margin: 0px 20px;
 }
 
-/* top container */
+/* containers */
 
-.top-container {
+.container {
   display: flex;
   justify-content: center;
+}
+
+.one {
   color: white;
   background-color: #1f2937;
+}
+
+.two {
+  color: #1f2937;
+  background-color: white;
 }
 
 /* ------------------------------------ */
@@ -31,6 +38,7 @@
   align-items: center;
   gap: 16px;
   height: 80px;
+  overflow-y: auto;
   /* padding: 0px 16px; */
 }
 
@@ -61,48 +69,38 @@
   text-decoration: none;
 }
 
-/* banner section  */
-
-.banner.wrapper {
-  display: flex;
-  /* justify-content: space-between; */
-}
-
 /* ------------------------------------ */
 /* header section (below nav-title-bar) */
 /* ------------------------------------ */
 
 .header {
   display: flex;
-  flex: 0 1 auto;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 50px;
   padding: 80px 0px;
-
-  /* height: 400px; */
+  overflow-y: auto;
+  gap: 16px;
 }
 
 /* header text section */
 
 .header-text-container {
-  max-width: 480px;
-  gap: 16px;
   display: flex;
   flex-direction: column;
+  max-width: 480px;
+  gap: 16px;
   margin: auto;
 }
 
 .header-title {
   font-size: 42px;
   font-weight: 900;
-  margin 10px;
   margin-bottom: 15px;
 }
 
 .header-button {
-  background-color: #3882F6;
+  background-color: #3882f6;
   color: white;
   padding: 10px 4px;
   margin: 16px 0px;
@@ -118,15 +116,14 @@
 .header-img {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
   overflow: hidden;
   margin: auto;
-  max-width: 500px;
+  max-width: 480px;
   max-height: 300px;
   border-radius: 8px;
   background-color: #e5e7eb;
   color: #1f2937;
-  
 }
 
 .header-img img {
@@ -135,3 +132,10 @@
 
 /* section 2 */
 
+.section-2 {
+  display: flex;
+  max-width: 480px;
+  gap: 16px;
+  flex-direction: column;
+  margin: auto;
+}
