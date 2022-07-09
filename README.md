@@ -23,14 +23,6 @@ Welcome to Bryan Miller's Landing Page Project, the [second assignment](https://
 
 ![Mobile](./img/preview2.png)
 
----
-
-## Odin Project Blueprints
-
-![Blueprint #1](./img/odin-project-1.png)
-
-![Blueprint #2](./img/odin-project-2.png)
-
 ## Deployment
 
 ```sh
