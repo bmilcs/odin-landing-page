@@ -1,8 +1,5 @@
 # Odin Landing Page Project
 
-- [Live Demo](https://bmilcs.github.io/odin-landing-page/)
-- [My Odin Project Progress](https://github.com/bmilcs/op)
-
 Welcome to Bryan Miller's Landing Page Project, the [second assignment](https://www.theodinproject.com/lessons/foundations-landing-page) within the Odin Project curriculum. The goal of this repo is to practice the following skill sets:
 
 - HTML & CSS Fundamentals
@@ -12,6 +9,11 @@ Welcome to Bryan Miller's Landing Page Project, the [second assignment](https://
   - Justify Content & Align Items
   - Overflow
 - Git Fundamentals
+
+# Links
+
+- [Live Demo](https://bmilcs.github.io/odin-landing-page/)
+- [My Odin Project Progress](https://github.com/bmilcs/op)
 
 ## Screenshots
 
