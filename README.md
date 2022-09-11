@@ -13,7 +13,7 @@ Welcome to Bryan Miller's Landing Page Project, the [second assignment](https://
 # Links
 
 - [Live Demo](https://bmilcs.github.io/odin-landing-page/)
-- [My Odin Project Progress](https://github.com/bmilcs/op)
+- [My Odin Project Progress](https://github.com/bmilcs/odin-project)
 
 ## Screenshots
 
